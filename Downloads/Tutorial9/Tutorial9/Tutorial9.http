@@ -1,0 +1,12 @@
+@Tutorial9_HostAddress = http://localhost:5027
+
+POST {{Tutorial9_HostAddress}}/api/Warehouse/add-to-warehouse
+Content-Type: application/json
+Accept: application/json
+
+{
+  "IdProduct": 1,
+  "IdWarehouse": 1,
+  "Amount": 125,
+  "CreatedAt": "2025-05-08T19:16:43.511Z"
+}
